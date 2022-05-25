@@ -1,3 +1,5 @@
+/*Juan Diego Carretero Granado*/
+
 /* Ver a que poblacion pertenece el alojamiento */
 select Alojamiento.nombre, Poblacion.nombre from Alojamiento inner join Poblacion on Alojamiento.idPoblacion = Poblacion.idPoblacion;
 
